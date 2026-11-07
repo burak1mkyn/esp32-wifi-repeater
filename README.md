@@ -8,7 +8,7 @@ Zayıf Wi-Fi sinyalini ESP32 ve harici anten ile güçlendirmek için kurduğum 
 ## Amaç
 
 Kaldığım ortamda Wi-Fi sinyali çalışma masamda ve yatağımda zayıftı. Amacım, sinyalin güçlü olduğu noktadan gelen ağı ESP32 ile yeniden yayınlayıp kullanım yerinde daha stabil bağlantı almaktı.
-[ESP32 WiFi Repeater Projesi Aşamaları](adimlar.jpg)
+[ESP32 WiFi Repeater Projesi Aşamaları](Adımlar_.jpg)
 ## Donanım
 
 | Parça | Açıklama |
