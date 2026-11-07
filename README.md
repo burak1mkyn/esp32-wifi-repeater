@@ -16,17 +16,16 @@ Kaldığım ortamda Wi-Fi sinyali çalışma masamda ve yatağımda zayıftı. A
 | Kart | ESP32-WROOM-32U geliştirme kartı (harici anten girişli, CP2102 USB-UART) |
 | Anten | 2,4 GHz, 8 dBi, 16 cm SMA erkek anten |
 | Bağlantı | 90° IPEX-SMA dişi pigtail, 15 cm |
-| Durum göstergesi | LED [+ direnç değeri] |
+| Durum göstergesi | Mavi LED + 330 Ω direnç] |
 | Güç | USB kablo ve adaptör |
 
-
+![Kurulum fotoğrafı](kurulum.jpeg)
 
 ## Yazılım ve Kurulum
 
 1. Firmware: [martin-ger/esp32_nat_router](https://github.com/martin-ger/esp32_nat_router)
-2. [Firmware'i karta nasıl yüklediğini yaz: Arduino IDE / esptool / hazır binary]
-3. İlk açılışta ESP32'nin kendi Wi-Fi ağına bağlanıp web arayüzünden üst ağ (uplink) ve kendi erişim noktası ayarları yapılır.
-4. **Güvenlik:** Şifreler bu repoda yoktur. Kendi kurulumunda varsayılan açık erişim noktasını mutlaka şifreyle koru.
+2. İlk açılışta ESP32'nin kendi Wi-Fi ağına bağlanıp web arayüzünden üst ağ (uplink) ve kendi erişim noktası ayarları yapılır.
+3. **Güvenlik:** Şifreler bu repoda yoktur. Kendi kurulumunda varsayılan açık erişim noktasını mutlaka şifreyle koru.
 
 ## Sinyal Ölçümleri
 
